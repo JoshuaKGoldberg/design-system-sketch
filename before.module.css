@@ -1,13 +1,27 @@
-.theme {
-  --color-foreground: #eee;
-  --color-background: #111;
-  --font-size-large: 1.5rem;
-  --font-size-medium: 1.25rem;
-  --font-size-smol: 1rem;
-  --width-main: 819px;
+.header,
+.footer {
+  background: #eee;
+  color: #111;
+  max-width: 819px;
 }
 
-.theme.dark {
-  --color-foreground: #111;
-  --color-background: #eee;
+.mainInside {
+  max-width: 819px;
+  color: #111;
+}
+
+.footer {
+  max-width: 819px;
+}
+
+.h1 {
+  font-size: 1.5rem;
+}
+
+.h2 {
+  font-size: 1.25rem;
+}
+
+.p {
+  font-size: 1rem;
 }
