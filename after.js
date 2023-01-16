@@ -1,10 +1,9 @@
-import styles from "./before.module.css";
+import styles from "./after.module.css";
 
 export function Home() {
   return (
     <div className={styles.theme}>
-      {/* eslint-disable-next-line no-header-v1 */}
-      <HeaderV1 />
+      <Header />
       <MainContent>
         <Text as="h1">Welcome to Contoso</Text>
         <Text as="p">Lorem ipsum...</Text>
