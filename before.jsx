@@ -11,7 +11,7 @@ export function Home() {
       <main>
         <div className={styles.mainInside}>
           <h1 className={styles.h1}>Welcome to Contoso</h1>
-          <p className={styles.p}>Lorem ipsum...</p>
+          <p className={styles.pLarge}>Lorem ipsum...</p>
           <h2 className={styles.h2}>Second Heading</h2>
           <p className={styles.p}>Lorem ipsum...</p>
           <h2 className={styles.h2}>Third Heading</h2>
