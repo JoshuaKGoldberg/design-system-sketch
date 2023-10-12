@@ -16,6 +16,7 @@ export function Home() {
           <p className={styles.p}>Lorem ipsum...</p>
           <h2 className={styles.h2}>Third Heading</h2>
           <p className={styles.p}>Lorem ipsum...</p>
+          <p className={styles.last}>In conclusion: yay!</p>
         </div>
       </main>
       <footer className={styles.footer}>

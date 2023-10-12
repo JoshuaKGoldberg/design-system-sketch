@@ -25,6 +25,9 @@ export function Home() {
         <Text as="p" fontSize="smol">
           Lorem ipsum...
         </Text>
+        <Text as="p" fontSize="medium">
+          In conclusion: yay!
+        </Text>
       </MainContent>
       <Footer />
     </div>
